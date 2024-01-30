@@ -1,0 +1,16 @@
+COMANDOS DE KITTY (CON FISH DE SHELL)
+--------------------------------------
+
+Ctrl+Shift+t ─ Crear una pestaña nueva.
+Ctrl+Shift+q ─ Destruir una pestaña.
+Ctrl+Shift+→ ─ Ir a la pestaña siguiente.
+Ctrl+Shift+← ─ Ir a la pestaña anterior.
+Ctrl+Shift+. ─ Mover a la derecha la pestaña.
+Ctrl+Shift+, ─ Mover a la izquierda la pestaña.
+El trabajo con ventanas también tiene su conjunto de teclas:
+
+Ctrl+Shift+enter ─ Crea una ventana nueva.
+Ctrl+Shift+n ─ Crea un marco nuevo.
+Ctrl+Shift+1..n ─ Mueve el foco a la ventana 1..n.
+Ctrl+alt+enter ─ Crea una nueva ventana con la shell fish cargada (esto sólo es en mi caso, porque lo configuré así).
+Ctrl+Shift+l ─ Cambiar la distribución de las ventanas
