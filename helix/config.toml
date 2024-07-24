@@ -1,0 +1,28 @@
+#Tema
+theme = "ayu_evolve"
+
+[editor]
+#Desabilitar el mouse
+mouse = false
+#Configurar la linea de numeros
+line-number = 'relative'
+#Autocompletado
+auto-completion = true
+#Auto-formateo (en el caso de no ponerlo)
+auto-format = true
+#Pestaña con los buffers
+bufferline = 'always'
+#Indicador de color segun el modo
+color-modes = true
+
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25 # increase value to reduce forced mid-word wrapping
+max-indent-retain = 0
+wrap-indicator = ""  # set wrap-indicator to "" to hide it
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
