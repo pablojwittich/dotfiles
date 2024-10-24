@@ -1,9 +1,17 @@
+--- Con este plugin integramos un tema al nvim
 return {
-	"wuelnerdotexe/vim-enfocado",
-	lazy = false, -- make sure we load this during startup if it is your main colorscheme
-	priority = 1000, -- make sure to load this before all the other start plugins
-	config = function()
-      -- load the colorscheme here
-	vim.cmd([[colorscheme enfocado]])
-	end,
+  --"rebelot/kanagawa.nvim",
+  --"TheNiteCoder/mountaineer.vim",
+  --"bluz71/vim-moonfly-colors",
+  --"killitar/obscure.nvim",
+  "yorumicolors/yorumi.nvim",
+
+  lazy = false, -- para que se carge inmeditamente sino lo hara asincronica
+  priority = 1000, -- para que se cargue antes de todos los demas files
+  config = function() -- mediante esta funcion decimos que se carge el tema
+    vim.cmd([[colorscheme yorumi]])
+  end,
+  opts = {
+    --vim.g.moonflyTransparent == true,
+  },
 }

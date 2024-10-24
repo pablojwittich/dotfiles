@@ -1,3 +1,2 @@
-require "config.settings"
-require "config.lazy"
-
+-- desabilitar mouse
+vim.opt.mouse = ""
