@@ -1,7 +1,6 @@
 --- Con este plugin integramos un tema al nvim
 return {
   "AlexvZyl/nordic.nvim",
-  --"olivercederborg/poimandres.nvim",
   --"wuelnerdotexe/vim-enfocado",
   --"navarasu/onedark.nvim",
   --"miikanissi/modus-themes.nvim",
