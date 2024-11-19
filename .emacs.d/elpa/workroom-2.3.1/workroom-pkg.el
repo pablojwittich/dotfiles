@@ -1,0 +1,2 @@
+;; Generated package description from workroom.el  -*- no-byte-compile: t -*-
+(define-package "workroom" "2.3.1" "Named rooms for work without irrelevant distracting buffers" '((emacs "25.1") (project "0.3.0") (compat "28.1.2.2")) :commit "cb8654191b23c9b02a79660c3d8c969709c6fcbe" :authors '(("Akib Azmain Turja" . "akib@disroot.org")) :maintainer '("Akib Azmain Turja" . "akib@disroot.org") :keywords '("tools" "convenience") :url "https://codeberg.org/akib/emacs-workroom")

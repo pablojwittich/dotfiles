@@ -1,0 +1,22 @@
+# Ruta de la carpeta que deseas respaldar
+$sourcePath = "C:\Ruta\De\Tu\Carpeta"
+
+# Esperar a que se inserte un pendrive
+$driveLetter = $null
+while ($driveLetter -eq $null) {
+    $drives = Get-WmiObject Win32_LogicalDisk | Where-Object { $_.DriveType -eq 2 }
+    if ($drives) {
+        $driveLetter = $drives[0].DeviceID
+    }
+    Start-Sleep -Seconds 1
+}
+
+# Copiar archivos al pendrive
+$destinationPath = "$driveLetter\Backup"
+if (-not (Test-Path -Path $destinationPath)) {
+    New-Item -ItemType Directory -Path $destinationPath
+}
+
+Copy-Item -Path "$sourcePath\*" -Destination $destinationPath -Recurse -Force
+
+Write-Host "Backup completado en $destinationPath"

@@ -1,0 +1,2 @@
+;; Generated package description from html5-schema.el  -*- no-byte-compile: t -*-
+(define-package "html5-schema" "0.1" "Add HTML5 schemas for use by nXML" 'nil :commit "784c471a9ea9ae817d70b222ec6fbe90ac64a057" :authors '(("Stefan Monnier" . "monnier@iro.umontreal.ca")) :maintainer '("Stefan Monnier" . "monnier@iro.umontreal.ca") :keywords '("html" "xml") :url "https://github.com/validator/validator")
