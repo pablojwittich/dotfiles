@@ -229,4 +229,11 @@ for_window [class="^.*$"] border none
 # Ocultar los títulos de las ventanas
 for_window [class="^.*$"] title none
 
+# Aumentar brillo
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+
+# Disminuir brillo
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+
+
 ######## CONFIG EXTRA ############
